@@ -110,11 +110,11 @@ img {
   fill: var(--logo-footer-text-color);
 }
 
-.social-links-light-theme {
+.social-links_light_theme {
   background-color: var(--third-text-color);
 }
 
-.social-links-dark-theme {
+.social-links_dark_theme {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
