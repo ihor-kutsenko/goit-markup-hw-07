@@ -1,8 +1,8 @@
-.employees-section {
+.employees {
   background-color: var(--filter-background-color-);
 }
 
-.employees-name {
+.employees__name {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -11,7 +11,7 @@
   letter-spacing: 0.03em;
 }
 
-.employees-position {
+.employees__position {
   margin-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
@@ -21,20 +21,20 @@
   color: var(--secondary-text-color);
 }
 
-.employees-list {
+.employees__list {
   display: flex;
   margin-left: -30px;
 }
 
-.employees-tittle {
+.employees__tittle {
   margin-bottom: 50px;
 }
-.employees-card {
+.employees__card {
   margin-left: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
 
-.employees {
+.employees__wrapper {
   width: 270px;
   padding-top: 30px;
   padding-bottom: 30px;

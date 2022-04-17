@@ -2,14 +2,14 @@
   padding-top: 0;
 }
 
-.description-tittle {
+.description__tittle {
   margin-bottom: 50px;
 }
 
-.description-overlay {
+.description__overlay {
   position: relative;
 }
-.description-img-wrapper {
+.description__img-wrapper {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -19,7 +19,7 @@
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.description-tittle-img {
+.description__tittle-img {
   color: var(--logo-footer-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -31,12 +31,12 @@
   text-align: center;
 }
 
-.description-list {
+.description__list {
   display: flex;
   margin-left: -30px;
 }
 
-.description-item {
+.description__item {
   margin-left: 30px;
   flex-basis: calc((100% - 90px) / 3);
 }

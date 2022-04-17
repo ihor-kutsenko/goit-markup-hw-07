@@ -17,7 +17,7 @@
   align-items: center;
 }
 
-.nav-list-item:not(:last-child) {
+.nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -27,11 +27,11 @@
   margin-left: auto;
 }
 
-.main-contact-item:not(:last-child) {
+.main-contact__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav-list-link {
+.nav-list__link {
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -63,16 +63,16 @@
   }
 }
 
-.icon-link {
+.main-contact__icon-link {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.main-contact-item {
+.main-contact__item {
   justify-content: center;
   align-items: center;
 }
-.main-contact-link {
+.main-contact__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
